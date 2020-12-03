@@ -3,10 +3,16 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { PropertyListComponent } from './property/property-list/property-list.component';
+import { PropertyCartComponent } from './property/property-cart/property-cart.component';
+import { NavBarComponent } from './nav-bar/nav-bar.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    PropertyCartComponent,
+    PropertyListComponent,
+    NavBarComponent
   ],
   imports: [
     BrowserModule,
